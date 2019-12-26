@@ -17,14 +17,12 @@ void for_lesson();
 		}
 		else if (a < b) {
 			for (int i = a; i <= b; i++) {
-				int cloneIteration=i;
-				sum += cloneIteration;
+				sum += i;
 			}
 		}
 		else if (a > b) {
 			for (int i = a; i >= b; i--) {
-				int cloneIteration = i;
-				sum += cloneIteration;
+				sum += i;
 			}
 		}
 		cout<<"sum is equal: "<<sum;
@@ -37,8 +35,7 @@ int main()
 	setlocale(LC_ALL, "");
 	
 
-	GetSum(-4, 5);
-
+	//GetSum(-4, 5);
 	//for_lesson();
 	//while_lesson();
 	//switch_lesson();
